@@ -7,4 +7,6 @@ After extracting, run the test file in their respective folders to perform unitt
 
 The tests need to be ran in linux as the script uses os functions in order to time out the test if a student has written code that contains an infinite loop.
 
+The results log files are included in csv format, so that it is not required to run these tests again in order to look at the results of the tests. The resulsts files are formatted in a manner which allows us to identify a number for the submission, which task the error is encountered, and the specific error message that the test returned.
+
 The data jupyter notebook is used to gather the data from the log files and summarises and groups the data into logical groups which have been used in the tables of the raport.
