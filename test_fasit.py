@@ -3,7 +3,7 @@ import unittest
 import importlib
 from unittest.mock import patch
 
-import fasit as export1
+import H21.fasit as export1
 
 code_errors = []
 

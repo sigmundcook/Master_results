@@ -3,6 +3,7 @@ import os
 import unittest
 import importlib
 import timeout_decorator
+from unittest import mock
 
 def run_tests_on_directory(directories):
     for current_directory in directories:
